@@ -1,0 +1,22 @@
+# Ambientes Virtuais
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Logs do Selenium e Drivers
+chromedriver.log
+ghostdriver.log
+webdriver-py.log
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
