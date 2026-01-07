@@ -29,7 +29,7 @@ O script simula a jornada completa de um usuário no sistema, garantindo que as 
    pip install selenium webdriver-manager
 
 2. Execute o script:
-```bash
+    ```bash
 python teste_estoqueE2E.py
 
 <p align="center">Projeto desenvolvido para portfólio de estudos em ADS - Unisa</p>
