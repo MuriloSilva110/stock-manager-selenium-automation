@@ -34,9 +34,13 @@ if __name__ == "__main__":
         cod = random.randint(1000, 9999)
         usuariao_fake = f'Usuario{cod}'
         email_fake = f'Tester{cod}@test.com'
-        senha_fake = 123456
+        senha_fake = '123456'
         #------------------------------------------------------------------    
-
+        # --- FASE DE PREPARAÇÃO (SETUP) ---
+        # O robô visita a rota mágica para garantir que o banco não está vazio
+        print("🛠️ Preparando o banco de dados...")
+        driver.get("https://estoque-muca.onrender.com/setup_demo")
+        time.sleep(3) # Espera a mensagem "Banco Populado" aparecer
         # Abre o site do Google
         driver.get("https://estoque-muca.onrender.com")
         
