@@ -31,8 +31,8 @@ WebDriver Manager (Incluso no script para gerenciamento automático do driver)
 Instale as dependências:
 ```bash
 pip install selenium webdriver-manager
-Execute a suíte de testes:
 ```
+Execute a suíte de testes:
 ```bash
 python teste_estoqueE2E.py
 ```
